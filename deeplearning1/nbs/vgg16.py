@@ -6,6 +6,8 @@ import numpy as np
 from scipy import misc, ndimage
 from scipy.ndimage.interpolation import zoom
 
+import h5py
+
 from keras import backend as K
 from keras.layers.normalization import BatchNormalization
 from keras.utils.data_utils import get_file
